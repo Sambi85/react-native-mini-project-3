@@ -2,10 +2,10 @@
 
 Basic Blog App with React Native
 
-Summary: I built this app using the following course I purchased on Udemy. It was fun way to learn and build an application using React Native.
+Notes: I built this app using the following course I purchased on Udemy. It was fun way to learn and build an application using React Native.
 
-Udemy Class: The Complete React Native + Hooks Course [2020 Edition]
-Author: Stephen Grider
+Udemy Course: The Complete React Native + Hooks Course [2020 Edition]
+by Stephen Grider
 
 Summary: 
 
