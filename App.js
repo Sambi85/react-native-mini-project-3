@@ -20,7 +20,8 @@ const App = createAppContainer(navigator);
 export default () => {
   return (
           <BlogProvider>
-            <App />
+            {/* passes the const App down to the Blog Provider  */}
+            <App /> 
           </BlogProvider>
   )
 };
