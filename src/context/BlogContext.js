@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useReducer } from 'react';
 
 const BlogContext = React.createContext();
 
+const blogReducer = () => {
+    
+}
 
 // children: react feature, it's a prop
 
