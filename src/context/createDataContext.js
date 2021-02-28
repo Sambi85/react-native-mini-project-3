@@ -7,9 +7,11 @@ export default (reducer, actions, intitalState) => {
     const Provider = ({ children }) => {
         const [state, dispatch] = useReducer(reducer, intitalState);
     
-        return <Context.Provider>
+        return <Context.Provider value={{ state }}>
             {children}
         </Context.Provider>
     }
+
+    return { Context, Provider };
 };
 
