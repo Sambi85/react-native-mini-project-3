@@ -15,10 +15,10 @@ const IndexScreen = () => {
                     data={state}
                     keyExtractor={ (blogPost) => blogPost.title}
                     renderItem={ ({ item }) => {
-                        return <View>
+                        return <View style={styles.row}>
                             <Text>{item.title}</Text>
                             <Feather name='trash'/>
-                            </View>
+                        </View>
                     }}     
                 />
             </View>
@@ -27,7 +27,8 @@ const IndexScreen = () => {
 
 const styles = StyleSheet.create({
     row: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     }
 })
 
