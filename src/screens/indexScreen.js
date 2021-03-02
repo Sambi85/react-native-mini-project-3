@@ -25,7 +25,11 @@ const IndexScreen = () => {
     )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    row: {
+        flexDirection: 'row'
+    }
+})
 
 
 export default IndexScreen;
