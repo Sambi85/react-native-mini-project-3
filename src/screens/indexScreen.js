@@ -29,8 +29,14 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: 'row',
         justifyContent: 'space-between'
+    },
+    title: { 
+        fontSize: 18
+    },
+    icon: {
+        fontSize: 24 
     }
-})
+});
 
 
 export default IndexScreen;
