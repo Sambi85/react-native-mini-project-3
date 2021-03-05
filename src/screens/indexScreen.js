@@ -31,7 +31,6 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         paddingVertical: 20,
         borderTopWidth: 1,
-        borderBottomWidth: 1,
         borderColor: 'gray'
     },
     title: { 
