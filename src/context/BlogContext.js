@@ -5,6 +5,9 @@ const BlogContext = React.createContext();
 const blogReducer = (state, action) => {
     switch (action.type) {
         
+        case "delete_blogpost" : 
+        return state.filter((blogPost) => blogPost.id !== action.payload)
+
         case 'add_blogpost':
             return [...state, {
                 id: Math.floor(Math.random() * 99999), 
@@ -24,8 +27,14 @@ const addBlogPost = (dispatch) => {
     }
 }
 
+const deleteBlogPost = (dispatch) => {
+    return (id) => {
+        dispatch({type: 'delete_blogpost', payload: id });
+    }
+}
+
 export const { Context, Provider } = createDataContext(
   blogReducer,
-    { addBlogPost },
+    { addBlogPost, deleteBlogPost },
     []
 );
