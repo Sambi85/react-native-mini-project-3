@@ -26,7 +26,7 @@ const IndexScreen = () => {
                     }}     
                 />
             </View>
-            
+
     )
 }
 
@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
         fontSize: 24 
     }
 });
+
 
 export default IndexScreen;
 
