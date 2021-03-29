@@ -25,11 +25,6 @@ export default () => {
           </Provider>
   )
 
-
-  
-
-
-  
 };
 
 
