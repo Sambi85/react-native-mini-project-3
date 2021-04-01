@@ -23,6 +23,7 @@ export default () => {
             {/* passes the const App down to the Blog Provider  */}
             <App /> 
           </Provider>
+          
   )
 };
 
